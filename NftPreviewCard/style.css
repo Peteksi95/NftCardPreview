@@ -1,0 +1,172 @@
+body {
+
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+p {
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card {
+
+    display: inline-block;
+    width: 375px;
+    height: fit-content;
+    background-color: hsl(216, 50%, 16%);
+    border: solid 25px hsl(216, 50%, 16%);
+    border-radius: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    box-shadow: 30px 30px 10px hsl(218, 85%, 8%);
+
+    
+}
+
+.main-content img {
+    
+    display: flex;
+    justify-content: center;
+    width: 369px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border: solid hsl(216, 50%, 16%);
+    border-radius: 15px;
+
+}
+
+#overlay {
+
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    opacity: 0;
+    transition: .3s;
+    justify-content: center;
+    width: 369px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border: solid hsl(216, 50%, 16%);
+    border-radius: 15px;
+    
+}
+
+.card h1 {
+
+    color: white;
+}
+
+.card p {
+
+    color: hsl(215, 51%, 70%);
+}
+
+.eth {
+
+    max-height: 40px;
+}
+
+.eth p {
+
+    color: rgb(0, 255, 248);
+    font-weight: 600;
+    width: fit-content;
+    position: relative;
+    top: -2em;
+    left: 1.5em;
+}
+
+.eth img {
+
+    position: relative;
+    top: 0.4em;
+}
+
+.days p {
+
+    max-width: 100px;
+    position: relative;
+    left: 14em;
+    top: -6.5em;
+    margin-left: 0;
+    padding: 0;
+    
+}
+.days img {
+
+    position: relative;
+    top: -4.7em;
+    left: 14em;
+}
+
+.eth .days  p {
+
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+hr {
+
+    background-color: hsl(215, 51%, 70%);
+    height: 1px;
+    border: none;
+    opacity: 50%;
+}
+
+#creator {
+
+    color: hsl(215, 51%, 70%);
+}
+
+#creator img {
+    
+    width: 33.5px;
+    border: solid 1px white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+}
+
+#creator span {
+
+    color: white;
+}
+
+#creator p {
+
+    margin-left: 60px;
+}
+
+.main-content img:hover {
+
+    cursor: pointer;
+    opacity: 50%;
+    transition: opacity .3s;
+}
+
+.main-content #overlay:hover {
+    opacity: 1;
+}
+
+.card h1:hover {
+
+    cursor: pointer;
+    color: rgb(0, 255, 248);
+    transition: .3s;
+}
+
+#creator span:hover {
+
+    cursor: pointer;
+    color: rgb(0, 255, 248);
+    transition: .3s;
+}
